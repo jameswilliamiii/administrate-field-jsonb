@@ -1,5 +1,5 @@
 (function () {
-  eventName = 'ready'
+  let eventName = 'ready'
   if (typeof TurboLinks !== 'undefined') eventName = 'turbolinks:load'
   if (typeof Turbo !== 'undefined') eventName = 'turbo:load'
 
